@@ -26,8 +26,8 @@ def get_aes_key(login_data, privakey):
 login_data = {
     "body": {
         "loginMethod": "1",
-        "name": "13933566015",
-        "password": "woshitiancai666"
+        "name": "13111111111",
+        "password": "12345678"
     },
     "head": {
         "userCode": None,
