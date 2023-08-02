@@ -1,0 +1,15 @@
+
+var CryptoJS = require('crypto-js')
+
+function aes(e, t) {
+    let n = e.replace(/\-/g, "+").replace(/_/g, "/")
+      , i = {
+        mode: CryptoJS.mode.ECB,
+        padding: CryptoJS.pad.Pkcs7
+    }
+      , o = CryptoJS.enc.Utf8.parse(t)
+      , s = CryptoJS.AES.decrypt(n, o, i);
+    return JSON.parse(CryptoJS.enc.Utf8.stringify(s))
+
+}
+console.log(aes('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', '4d001d7c8aae4c93'))
