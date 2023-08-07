@@ -1439,17 +1439,6 @@ self = window;
 }()
 
 
-
-
-
-
-
-
-
-
-
-
-
 t5 = function(tt) {
             var te = new URL(tt,"https://www.zhihu.com");
             return "" + te.pathname + te.search
